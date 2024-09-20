@@ -6,6 +6,7 @@
 
 
 // add money to the account
+/** 
 document.getElementById('btn-add-money').addEventListener('click',(e)=>{
     // prevent default behaviour
     e.preventDefault();
@@ -27,10 +28,12 @@ document.getElementById('btn-add-money').addEventListener('click',(e)=>{
         document.getElementById('current-balance').innerText = newBalance;
 
         // step 7 clear the input field
-        document.getElementById('input-add-money').value = '';
-        document.getElementById('input-pin-number').value = '';
+        // document.getElementById('input-add-money').value = '';
+        // document.getElementById('input-pin-number').value = '';
     }else{
         alert('failed to add money ! Please try again');
     }
 
 })
+
+*/

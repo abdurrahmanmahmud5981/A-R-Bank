@@ -17,7 +17,6 @@ document.getElementById('btn-add-money').addEventListener('click',(e)=>{
 
     // step 3 validation
     if(pinNumber === '1234'){
-        console.log('you can add money');
         // step -4 get the current balance
         const currentBalance = document.getElementById('current-balance').innerText;
 

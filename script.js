@@ -16,9 +16,8 @@ document.getElementById('btn-login').addEventListener('click', (e) => {
     // step 4 validation
     // this is temporary .
     if(phone === '5' && pin === '1234'){
-        console.log('You are logged in ');
+        // step 5 => allow user to access and redirect to home page
         window.location.href = './home.html';
-        // step 5 => allow user to access
     }else{
         alert('wrong phone or pin ');
     }

@@ -6,7 +6,7 @@
 
 
 // add money to the account
-/** 
+
 document.getElementById('btn-add-money').addEventListener('click',(e)=>{
     // prevent default behaviour
     e.preventDefault();
@@ -36,4 +36,3 @@ document.getElementById('btn-add-money').addEventListener('click',(e)=>{
 
 })
 
-*/
